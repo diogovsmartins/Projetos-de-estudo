@@ -1,0 +1,59 @@
+/* Estilizações gerais da página */
+body{
+	background-color: black;
+	margin: 0;
+}
+#page{
+	width: 80%;
+	min-height: 1000px;
+	background-color: darkgrey;
+	margin: auto;
+}
+/* Estilizações gerais da página */
+/* Estilizações do header e navbar */
+#div_navbar{
+	width: 100%;
+	display: flex;
+}
+
+.evenboxes{
+	flex-basis: 40%;
+	float: left;
+	background-color: rgb(34, 34, 34);
+	text-align: center;
+	border-right: 1px solid goldenrod;
+
+}
+.oddboxes{
+	flex-basis: 30%;
+	float: left;
+	background-color: rgb(34, 34, 34);
+	text-align: center;
+	border-left: 1px solid goldenrod;
+}
+a{
+	color: goldenrod;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+}
+/* Estilizações do header e navbar */
+/* Estilizações conteudos */
+.container_container{
+	width: 100%;
+	display: flex;
+	background-color: rgb(44, 44, 44);
+	border-bottom: 3px solid goldenrod;
+}
+
+.flexitem{
+	flex: 1;
+	padding: 5%;
+	max-width: 90%;
+}
+.card{
+	flex: 1;
+	text-align: center;
+}
+/* Estilizações conteudos */
